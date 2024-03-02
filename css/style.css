@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    position: relative;
+}
+
+.main img{
+    width: 400px;
+}
+
+.main2{
+    height: 100vh;
+    width: 100%;
+    background-color: gainsboro;
+    margin-top: 20px;
+}
+.main i{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.buttons{
+   text-align: center;
+   padding-top: 10px;
+   border-radius: 10px;
+
+}
+.buttons .btn{
+ color:lightcoral;
+ padding: 10px 15px;
+ font-family: sans-serif;
+ font-weight: 600;
+
+
+}
